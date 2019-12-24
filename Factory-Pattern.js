@@ -7,7 +7,7 @@ var CarFactory = function(year, paint, make, model) {
   car.model = model;
   /* Function that output properties */
   car.showCar = function() {
-    console.log(`${this.year} ${this.paint} ${this.make} ${this.model}`);
+    console.log(`${car.year} ${car.paint} ${car.make} ${car.model}`);
   }
   return car;
 }
